@@ -74,7 +74,7 @@ function Users() {
       <h3> Dynamic User:{users.length} </h3>
       <ul>
         {
-        users.map(user=><li>{user.email}, Id Num: {user.id}</li>)
+        users.map(user=><li>{user.email}, Id Number: {user.id}</li>)
         }
       </ul>
     </div>
